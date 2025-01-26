@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Wellness & Mental Health Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Global Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            color: #333;
+        }
+
+        /* Navigation Styles */
+        .navbar {
+            background: linear-gradient(to right, #6A5ACD, #836FFF);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 1.5rem 5%;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .navbar-logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            letter-spacing: 1.5px;
+        }
+
+        .navbar-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .navbar-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-links a:hover {
+            color: #FFD700;
+            text-decoration: underline;
+        }
+
+        /* Module Card Styles */
+        .modules-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 3rem;
+        }
+
+        .module-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            width: 280px;
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .module-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+        }
+
+        .module-card i {
+            font-size: 4rem;
+            color: #6A5ACD;
+            margin-bottom: 20px;
+        }
+
+        .module-card h3 {
+            font-size: 1.5rem;
+            color: #6A5ACD;
+            margin-bottom: 10px;
+        }
+
+        .module-card p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">AURA</a>
+        <div class="navbar-links">
+            <a href="safety.html">Safety Network</a>
+            <a href="proff.html">Professional Development</a>
+            <a href="health.html">Health & Wellness</a>
+            <a href="personal.html">Personal Growth</a>
+            <a href="portfolio.html">About Developers</a>
+            <a href="login.html">Login</a>
+        </div>
+    </nav>
+
+   <div class="modules-container">
+    <div class="module-card" onclick="window.location.href='safety.html'">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Safety Network</h3>
+        <p>Emergency contacts, panic support, and helpline directory</p>
+    </div>
+
+    <div class="module-card" onclick="window.location.href='proff.html'">
+        <i class="fas fa-briefcase"></i>
+        <h3>Professional Development</h3>
+        <p>Skills enhancement, job ideas, and goal tracking</p>
+    </div>
+
+    <div class="module-card" onclick="window.location.href='health.html'">
+        <i class="fas fa-heart"></i>
+        <h3>Health & Wellness</h3>
+        <p>Mental health journal, mood tracking, anonymous sharing</p>
+    </div>
+
+    <div class="module-card" onclick="window.location.href='personal.html'">
+        <i class="fas fa-leaf"></i>
+        <h3>Personal Growth</h3>
+        <p>Affirmations, habit tracking, stress management</p>
+    </div>
+
+    <div class="module-card" onclick="window.location.href='portfolio.html'">
+        <i class="fas fa-user"></i>
+        <h3>About Developers</h3>
+        <p>Learn more about our mission and team</p>
+    </div>
+   </div>
+</body>
+</html>

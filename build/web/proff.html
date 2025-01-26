@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Development for Homemakers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f7d7e8, #8e44ad);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .heading {
+            font-family: 'Poppins', sans-serif;
+            font-size: 4rem;
+            font-weight: 600;
+            color: #6A5ACD;
+            text-align: center;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .section {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: scale(1.02);
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #6A5ACD;
+            border-bottom: 2px solid #6A5ACD;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .job-ideas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .job-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .job-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .job-card i {
+            font-size: 2rem;
+            color: #8e44ad;
+            margin-bottom: 10px;
+        }
+
+        .goal-tracker input,
+        .goal-tracker select,
+        .goal-tracker textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+        }
+
+        .goal-tracker button {
+            padding: 12px;
+            background-color: #8e44ad;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .goal-tracker button:hover {
+            background-color: #6c3483;
+        }
+
+        .skill-enhancement {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .video-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-card iframe {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .job-ideas {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .skill-enhancement {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Heading -->
+        <div class="heading">PROFESSIONAL SKILL DEVELOPMENTS</div>
+
+        <!-- Innovative Job Ideas Section -->
+        <section class="section">
+            <h2 class="section-title">Innovative Job Ideas for Homemakers</h2>
+            <div class="job-ideas">
+                <div class="job-card">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Freelance Writing</h3>
+                    <p>Content creation, blog writing, copywriting</p>
+                    <button onclick="window.location.href='https://www.upwork.com/freelance-writing'">Explore More</button>
+                </div>
+                <div class="job-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Online Tutoring</h3>
+                    <p>Teach skills, languages, or academic subjects</p>
+                    <button onclick="window.location.href='https://www.teachaway.com/teaching-jobs-abroad'">Start Tutoring</button>
+                </div>
+                <div class="job-card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>E-commerce Selling</h3>
+                    <p>Handmade crafts, dropshipping, reselling</p>
+                    <button onclick="window.location.href='https://www.etsy.com/sell'">Start Selling</button>
+                </div>
+                <div class="job-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>Virtual Assistant</h3>
+                    <p>Remote administrative support</p>
+                    <button onclick="window.location.href='https://www.virtualassistantjobs.com/'">Find Jobs</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Goal Tracking Section -->
+        <section class="section">
+            <h2 class="section-title">Professional Goal Tracker</h2>
+            <form class="goal-tracker" id="goalTrackerForm">
+                <input type="text" name="goalTitle" placeholder="Goal Title" required>
+                <textarea name="goalDescription" placeholder="Detailed Goal Description" required></textarea>
+                <label>Start Date:</label>
+                <input type="date" name="startDate" required>
+                <label>Target Completion Date:</label>
+                <input type="date" name="targetDate" required>
+                <select name="goalPriority" required>
+                    <option value="">Select Priority</option>
+                    <option value="high">High Priority</option>
+                    <option value="medium">Medium Priority</option>
+                    <option value="low">Low Priority</option>
+                </select>
+                <button type="submit">Set Goal</button>
+            </form>
+        </section>
+
+        <!-- Skill Enhancement Section -->
+        <section class="section">
+            <h2 class="section-title">Skill Enhancement Resources</h2>
+            <div class="skill-enhancement">
+                <div class="video-card">
+                    <h3>Digital Marketing Basics</h3>
+                    <iframe src="https://www.youtube.com/embed/cwM0iq7BDTI" title="Digital Marketing Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <button onclick="window.open('https://www.youtube.com/watch?v=cwM0iq7BDTI', '_blank')">Watch Video</button>
+                </div>
+                <div class="video-card">
+                    <h3>Freelancing Strategies</h3>
+                    <iframe src="https://www.youtube.com/embed/J5LRmliUI4Q" title="Freelancing Tips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <button onclick="window.open('https://www.youtube.com/watch?v=J5LRmliUI4Q', '_blank')">Watch Video</button>
+                </div>
+                <div class="video-card">
+                    <h3>Personal Branding</h3>
+                    <iframe src="https://www.youtube.com/embed/mj3HPbXt5Yw" title="Personal Branding Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <button onclick="window.open('https://www.youtube.com/watch?v=mj3HPbXt5Yw', '_blank')">Watch Video</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Goal Tracker Form Submission
+        document.getElementById('goalTrackerForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const goalDetails = {
+                title: formData.get('goalTitle'),
+                description: formData.get('goalDescription'),
+                startDate: formData.get('startDate'),
+                targetDate: formData.get('targetDate'),
+                priority: formData.get('goalPriority')
+            };
+
+            // In a real application, this would send data to backend
+            alert(`Goal Added:
+            Title: ${goalDetails.title}
+            Description: ${goalDetails.description}
+            Start Date: ${goalDetails.startDate}
+            Target Date: ${goalDetails.targetDate}
+            Priority: ${goalDetails.priority}`);
+
+            // Reset form
+            e.target.reset();
+        });
+    </script>
+</body>
+
+</html>

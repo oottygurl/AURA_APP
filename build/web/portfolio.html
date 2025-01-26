@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #eaeaea; /* Updated background color */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #f8f9fa;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: #2d3436;
+        }
+
+        section {
+            padding: 4rem 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #2d3436;
+        }
+
+        .developer {
+            margin-bottom: 3rem;
+            background-color: #f0f4f8;
+            border-radius: 10px;
+            padding: 2rem;
+        }
+
+        .profile-info {
+            text-align: center;
+            margin-bottom: 2rem;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-info h2 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-info p {
+            color: #636e72;
+            font-size: 1.1rem;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            display: block;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills {
+            background-color: #e8f5e9;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .projects {
+            background-color: #fff3e0;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .skills-grid,
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            padding: 0 1rem;
+        }
+
+        .skill-item,
+        .project-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card h3 {
+            margin-bottom: 1rem;
+        }
+
+        .contact {
+            text-align: center;
+            background-color: #ede7f6;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            color: #2d3436;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #0984e3;
+        }
+
+        @media (max-width: 768px) {
+            .skills-grid,
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .social-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Developer Portfolio</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Developer 1 -->
+        <section class="developer">
+            <div class="profile-info">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx9ihDN6DbABo7tFxYWDFjWgt6tHcFn8OTTw&s" alt="Nandana Geogy" class="profile-picture"> <!-- Added profile picture -->
+                <h2>Nandana Geogy</h2>
+                <p>Undergraduate Student | Web Developer | Singer</p>
+            </div>
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Leadership</div>
+                    <div class="skill-item">Communication</div>
+                    <div class="skill-item">Web Development</div>
+                    <div class="skill-item">Typing</div>
+                    <div class="skill-item">Singing</div>
+                </div>
+            </section>
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Resort Management System</h3>
+                        <p>A comprehensive system for managing resort operations and bookings.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Student Management System</h3>
+                        <p>An efficient solution for tracking and managing student information.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Developer 2 -->
+        <section class="developer">
+            <div class="profile-info">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbfbKmL-Dm1APrg0vEz3iD-LpGlRza-1F_rjUMXb3IyPusk8MJzFUuwj_NmzVwdiZV_gc&usqp=CAU" alt="Pavithra Sreedhar" class="profile-picture"> <!-- Added profile picture -->
+                <h2>Pavithra Sreedhar</h2>
+                <p>Software Engineer | Backend Developer | Tech Enthusiast</p>
+            </div>
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">Django</div>
+                    <div class="skill-item">Documenting</div>
+                    <div class="skill-item">Database Management</div>
+                    <div class="skill-item">Problem Solving</div>
+                </div>
+            </section>
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>E-commerce API</h3>
+                        <p>An API for managing products, orders, and users in an online store.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Blog Platform</h3>
+                        <p>A blogging system with user authentication and content management.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Developer 3 -->
+        <section class="developer">
+            <div class="profile-info">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROvuOgl0y3rdqYK4orI-5t2-71O-z-RCTrStq6xdxJAQ99ZAyqHd7xrN7Ww24AOsrfUFc&usqp=CAU" alt="Nandana Rajesh" class="profile-picture"> <!-- Added profile picture -->
+                <h2>Nandana Rajesh</h2>
+                <p>Frontend Developer | UI/UX Designer | Creative Thinker</p>
+            </div>
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">HTML & CSS</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">React.js</div>
+                    <div class="skill-item">Flutter</div>
+                    <div class="skill-item">Graphic Design</div>
+                </div>
+            </section>
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>A personal portfolio website showcasing design and development work.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Recipe App</h3>
+                        <p>A responsive web app for exploring and saving favorite recipes.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-section">
+    
+            <p><span class="icon">📞</span> Phone:8606003257 </p>
+    
+            <p><span class="icon">📧</span> Email: <a href="mailto: nandanaraj12@gmail.com">nandanaraj12@gmail.com</a></p>
+    
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Network - Women's Wellness</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f8d7da; /* Light red background */
+            margin: 0;
+            padding: 0;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .section {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+            padding: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+        }
+
+        .section-title {
+            color: #6A5ACD;
+            font-size: 24px;
+            font-weight: bold;
+            border-bottom: 3px solid #6A5ACD;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .emergency-contact-form {
+            display: grid;
+            gap: 20px;
+        }
+
+        .emergency-contact-form input, 
+        .emergency-contact-form select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .emergency-contact-form input:focus, 
+        .emergency-contact-form select:focus {
+            border-color: #6A5ACD;
+            box-shadow: 0 0 8px rgba(106, 90, 205, 0.6);
+            outline: none;
+        }
+
+        .panic-button {
+            display: flex;
+            justify-content: center;
+            margin: 25px 0;
+        }
+
+        /* Creative Panic Button Styles */
+        .panic-btn {
+            background-color: #FF4500;
+            color: white;
+            border: none;
+            padding: 18px 35px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+
+        /* Hover effect with color change and shadow expansion */
+        .panic-btn:hover {
+            background-color: #FF6347;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            transform: scale(1.1);
+        }
+
+        /* Focus effect with a subtle glow */
+        .panic-btn:focus {
+            outline: none;
+            box-shadow: 0 0 12px rgba(255, 99, 71, 0.6);
+        }
+
+        .helpline-directory {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .helpline-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .helpline-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+        }
+
+        .helpline-card h3 {
+            margin-bottom: 15px;
+            color: #6A5ACD;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .helpline-card p {
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Adding subtle animation on loading */
+        .container {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Emergency Contacts Section -->
+        <section class="section">
+            <h2 class="section-title">Emergency Contacts</h2>
+            <form class="emergency-contact-form" id="emergencyContactForm">
+                <input type="text" name="contactName" placeholder="Contact Name" required>
+                <input type="tel" name="contactNumber" placeholder="Contact Number" required>
+                <select name="relationship" required>
+                    <option value="">Select Relationship</option>
+                    <option value="family">Family</option>
+                    <option value="friend">Friend</option>
+                    <option value="spouse">Spouse</option>
+                    <option value="sibling">Sibling</option>
+                    <option value="other">Other</option>
+                </select>
+                <button type="submit">Add Emergency Contact</button>
+            </form>
+        </section>
+
+        <!-- Panic Support Section -->
+        <section class="section">
+            <h2 class="section-title">Panic Support</h2>
+            <div class="panic-button">
+                <button class="panic-btn" onclick="triggerPanicSupport()">
+                    🚨 EMERGENCY SUPPORT 🚨
+                </button>
+            </div>
+        </section>
+
+        <!-- Helpline Directory Section -->
+        <section class="section">
+            <h2 class="section-title">Helpline Directory</h2>
+            <div class="helpline-directory">
+                <div class="helpline-card">
+                    <h3>National Women Helpline</h3>
+                    <p>1091</p>
+                </div>
+                <div class="helpline-card">
+                    <h3>Police Helpline</h3>
+                    <p>100</p>
+                </div>
+                <div class="helpline-card">
+                    <h3>Mental Health Helpline</h3>
+                    <p>08046110007</p>
+                </div>
+                <div class="helpline-card">
+                    <h3>Domestic Violence Helpline</h3>
+                    <p>181</p>
+                </div>
+                <div class="helpline-card">
+                    <h3>Child Helpline</h3>
+                    <p>1098</p>
+                </div>
+                <div class="helpline-card">
+                    <h3>Cyber Crime Helpline</h3>
+                    <p>1930</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Emergency Contact Form Submission
+        document.getElementById('emergencyContactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const contactDetails = {
+                name: formData.get('contactName'),
+                number: formData.get('contactNumber'),
+                relationship: formData.get('relationship')
+            };
+            
+            // In a real application, this would send data to backend
+            alert("Emergency Contact Added:\nName: ${contactDetails.name}\nNumber: ${contactDetails.number}\nRelationship: ${contactDetails.relationship}");
+            
+            // Reset form
+            e.target.reset();
+        });
+
+        // Panic Support Function
+        function triggerPanicSupport() {
+            // In a real application, this would:
+            // 1. Send SMS to emergency contacts
+            // 2. Share current location
+            // 3. Notify local authorities
+            alert('EMERGENCY ALERT TRIGGERED!\n\nYour emergency contacts have been notified.\nLocation sharing activated.\nLocal authorities will be informed.');
+        }
+    </script>
+</body>
+</html>

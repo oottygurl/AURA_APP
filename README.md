@@ -1,168 +1,150 @@
 AURA - Women Empowerment Application
 
-**Overview**
+Overview
+In this digital platform is designed to address the unique challenges faced by women in their personal or social lives. It also combines safety tools, mental support and legal awareness about their rights.
 
-This digital platform is designed to address the unique challenges
-faced by women in their personal or social lives. It also combines
-safety tips, mental support,professional skill development and personal growth.
+How does this project fit into your broader strategy?
+This project seamlessly fits into a broader strategy focused on empowering women and addressing their issues through practical solutions.
 
-+----------------------+-----------------------------------------------+
-| **How does this      | This project seamlessly fits into a broader   |
-| project fit into     | strategy focused on empowering women through  |
-| your broader         | complete digital solutions.                   |
-| strategy?**          |                                               |
-+======================+===============================================+
-| **Team**             | Team Powerpuffs                               |
-+----------------------+-----------------------------------------------+
-| **Team members**     | Nandana Geogy                                 |
-|                      |                                               |
-|                      | Nandana Rajesh                                |
-|                      |                                               |
-|                      | Pavithra Sreedhar                             |
-+----------------------+-----------------------------------------------+
-| **Date**             | 25/01/2025                                    |
-+----------------------+-----------------------------------------------+
-| **Status**           | in progress / done                            |
-+----------------------+-----------------------------------------------+
+Team
+Team Powerpuffs
 
-**Problem space**
+Team members
 
-  -----------------------------------------------------------------------
-  **Why are we   This application provides mechanisms like safety tips
-  doing this?**  and helpline numbers which assist women feel secure in
-                 their environment. It gives safety tips, mental support,
-                 professional skill development and personal growth.
-  -------------- --------------------------------------------------------
-  **How do we    The app's core goal is to improve safety for women,
-  judge          which makes it a critical success indicator. Furthermore
-  success?**     helping users in need both emotionally and mentally is a
-                 key indicator of success. it does not have a age for
-                 target audience. it have user friendly interface and
-                  personalized content.
+Nandana Geogy
 
-  **What are     In order to ensure that the application achieves its
-  possible       goals effectively by developing an inbuild journaling
-  solutions?**   tool with mood tagging prompts. Moreover, preloads easy
-                 to understand guides on fundamental rights and workplace
-                 laws.
-  -----------------------------------------------------------------------
+Nandana Rajesh
 
-** Validation**
+Pavithra Sreedhar
 
-  -----------------------------------------------------------------------
-  **What do   Women often face safety risks in shared spaces and digital
-  we already  realm hence there is a clear need for accessible tools that
-  know?**     enhance safety such as panic buttons safety measure.
-              Moreover, women especially in underprivileged communities,
-              may not be fully aware of their rights or how to gain a
-              legal support against domestic violence, workplace
-              harassment, or legal disputes.
-  ----------- -----------------------------------------------------------
-  **What do   As the application will be used by women from different
-  we need to  cultural background, socio-economic and educational
-  answer?**   backgrounds, we need to answer how to create flawless user
-              experience that roll with all groups. Besides we need to
-              ensure user privacy and data security as it is crucial
-              peculiarly in contexts where women maybe sharing sensitive
-              information about their personal lives and experience.
+Date
+25/01/2025
 
-  -----------------------------------------------------------------------
+Status
+in progress / done
 
-**[Technical Details]{.underline}**
+Problem space
 
+Why are we doing this? 
+
+This website is designed to empower women by offering a comprehensive platform for wellness and mental health support. It includes a safety network with emergency contacts and panic button, resources for homemakers to enhance skills and track professional progress, mental health tools like mood tracking and anonymous sharing, and personal growth features such as daily affirmations, habit tracking, and 30-day challenges. Our goal is to create a supportive space where women can prioritize their well-being, grow personally, and find the resources to thrive.
+
+
+
+How do we judge success?
+
+Success will be judged by the impact we have on women's lives, measured through active engagement with the platform's features, such as the use of safety tools, participation in professional growth activities, regular mental health tracking, and involvement in personal development challenges. High user satisfaction, improved well-being, and positive feedback will indicate that the platform is effectively supporting women in their wellness journey, helping them feel empowered, safe, and motivated to grow.
+
+
+
+What are possible solutions?
+
+Provides a user friendly interface and personalized content. In order to ensure that the application achieves its goals effectively by developing an inbuild journaling tool with mood tagging prompts. Moreover, preloads easy to understand guides on fundamental rights and workplace laws.
+
+
+
+Validation
+What do we already know?
+
+Women often face safety risks in shared spaces and digital realm hence there is a clear need for accessible tools that enhance safety such as panic buttons safety measure. Moreover, women especially in underprivileged communities, may not be fully aware of their rights or how to gain a legal support against domestic violence, workplace harassment, or legal disputes.
+
+
+
+What do we need to answer?
+
+As the application will be used by women from different cultural background, socio-economic and educational backgrounds, we need to answer how to create flawless user experience that roll with all groups. Besides we need to ensure user privacy and data security as it is crucial peculiarly in contexts where women maybe sharing sensitive information about their personal lives and experience.
+
+Technical Details
 Technologies Used for Software:-
 
-1.  Html
+Html
 
-2.  CSS
+CSS
 
-3.  JSP
+JSP
 
-4.  MYSQL
+MYSQL
 
-5.  Netbeans
+Netbeans
 
 For Hardware : -
+Main Components:
 
-**Main Components:**
+Processor: AMD Ryzen 7 Octa-Core 5800H
 
-1.  **Processor:** AMD Ryzen 7 Octa-Core 5800H
+Graphics Card: NVIDIA GeForce RTX 3050 with 4 GB GDDR6 dedicated memory
 
-2.  **Graphics Card:** NVIDIA GeForce RTX 3050 with 4 GB GDDR6 dedicated
-    memory
+Memory (RAM): Options of 8 GB or 16 GB DDR4
 
-3.  **Memory (RAM):** Options of 8 GB or 16 GB DDR4
+Storage: 512 GB SSD
 
-4.  **Storage:** 512 GB SSD
+Display: 15.6-inch Full HD (1920 x 1080 pixels), 144 Hz refresh rate, IPS, micro-edge, anti-glare
 
-5.  **Display:** 15.6-inch Full HD (1920 x 1080 pixels), 144 Hz refresh
-    rate, IPS, micro-edge, anti-glare
+Operating System: Windows 11 Home
 
-6.  **Operating System:** Windows 11 Home
+Battery: 70 Wh Li-ion Polymer
 
-7.  **Battery:** 70 Wh Li-ion Polymer
+Weight: Approximately 2.37 kg
 
-8.  **Weight:** Approximately 2.37 kg
+Specifications:
 
-**Specifications:**
+Processor Details:
 
--   **Processor Details:**
+Model: AMD Ryzen 7 5800H
 
-    -   **Model:** AMD Ryzen 7 5800H
+Cores: 8
 
-    -   **Cores:** 8
+Tools Required:
+To ensure optimal performance and longevity of the HP Victus Ryzen 7 laptop, consider the following tools and accessories:
 
-**Tools Required:**
+Cooling Pad: To prevent overheating during extended gaming sessions.
 
-To ensure optimal performance and longevity of the HP Victus Ryzen 7
-laptop, consider the following tools and accessories:
+External Mouse and Keyboard: For enhanced gaming control and comfort.
 
--   **Cooling Pad:** To prevent overheating during extended gaming
-    sessions.
+Laptop Stand: To improve ergonomics and airflow.
 
--   **External Mouse and Keyboard:** For enhanced gaming control and
-    comfort.
+External Storage Drive: For additional storage capacity and backups.
 
--   **Laptop Stand:** To improve ergonomics and airflow.
+Screen Protector: To safeguard the display from scratches and smudges.
 
--   **External Storage Drive:** For additional storage capacity and
-    backups.
+Carrying Case: For safe transportation and protection during travel.
 
--   **Screen Protector:** To safeguard the display from scratches and
-    smudges.
-
--   **Carrying Case:** For safe transportation and protection during
-    travel.
-
--   **Headset with Microphone:** For immersive audio and clear
-    communication during online gaming.
-
--   
+Headset with Microphone: For immersive audio and clear communication during online gaming.
 
 Implementation For Software:
 
-**1. Installation of NetBeans IDE:**
+Installation of NetBeans IDE:
 
-**For Windows:**
+For Windows:
 
-1.  **Download the Installer:**
+Download the Installer:
 
-    -   Visit the official NetBeans website: [NetBeans
-        Downloads](https://netbeans.apache.org/download/index.html).
+Visit the official NetBeans website: NetBeans Downloads.
 
-    -   Choose the **Windows** version (e.g., \"Apache NetBeans 16\").
+Choose the Windows version (e.g., "Apache NetBeans 16").
 
-    -   Download the .exe installer file.
+Download the .exe installer file.
 
-2.  **Run the Installer:**
+Run the Installer:
 
-    -   Once downloaded, run the .exe file and follow the installation
-        prompts.
+Once downloaded, run the .exe file and follow the installation prompts.
 
-    -   During installation, choose the features you want to install
-        (e.g., Java, PHP, C++, etc.).
+During installation, choose the features you want to install (e.g., Java, PHP, C++, etc.).
 
-3.  **Complete Installation:**
+Complete Installation:
 
-    -   After installation, open **NetBeans IDE** and start configuring
-        it for your development needs.
+After installation, open NetBeans IDE and start configuring it for your development needs.
+
+Project Documentation for Software
+
+Screenshot
+https://drive.google.com/drive/folders/10tUn4XHKvuJe7o14rU6YmZbSyjt19y8q?usp=sharing 
+Drive Access
+
+Team Contributions
+
+Nandana Rajesh   - Designing the back-end using JSP.
+
+Nandana Geogy  Thomas- Designing the front-end using HTML and CSS.
+
+Pavithra Sreedhar – Documenting the project and GitHub Contributor.
